@@ -13,11 +13,8 @@ public class Pages extends TestBase {
     public TopMenuPage topMenuPage;
 
     public HomePage homePage;
-
     public CartPage cartPage;
-
     public ProductPage productPage;
-
     public ResultsPage resultsPage;
 
 

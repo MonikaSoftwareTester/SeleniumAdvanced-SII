@@ -17,10 +17,6 @@ public class ResultsPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"js-product-list\"]/div[1]/div/article/div/div[1]/h2/a")
     private WebElement result;
 
-    @FindBy(xpath = "//*[@id=\"content\"]/section/div/div[1]/article/div/div[1]/h3")
-    private List<WebElement> searchedProducts;
-
-
     public String showDisplayedProductName(){
         waitToBeVisible(result);
         return result.getText();

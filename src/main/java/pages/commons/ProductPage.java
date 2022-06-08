@@ -17,7 +17,7 @@ public class ProductPage extends BasePage {
     @FindBy(xpath = "//div[@class='add']/button[@type='submit']")
     private WebElement addToCartBtn;
 
-    @FindBy(xpath = "//*[@id=\"blockcart-modal\"]/div/div/div[2]/div/div[2]/div/div/a")
+    @FindBy(xpath = "//*[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/a")
     private WebElement goToCheckoutBtn;
 
     public ProductPage setQuantity(String quant){
