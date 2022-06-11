@@ -4,8 +4,9 @@ import org.testng.annotations.BeforeMethod;
 import pages.commons.*;
 import pages.user.LoginPage;
 import pages.user.RegistrationPage;
-
-import java.util.Calendar;
+import pages.shop.CartPage;
+import pages.shop.ProductPage;
+import pages.shop.ResultsPage;
 
 public class Pages extends TestBase {
     public LoginPage loginPage;
