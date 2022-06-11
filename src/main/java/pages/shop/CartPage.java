@@ -24,7 +24,7 @@ public class CartPage extends BasePage {
     private WebElement totalPrice;
 
     @FindBy(xpath = "//i[@class='material-icons float-xs-left']")
-    private WebElement trashbasket;
+    private WebElement wastebasket;
 
     @FindBy(xpath = "//span[@class='no-items']")
     private WebElement infoAfterEmptyingBasket;
@@ -46,7 +46,7 @@ public class CartPage extends BasePage {
     }
 
     public void emptyBasket() {
-        click(trashbasket);
+        click(wastebasket);
     }
 
     public String getInfo() {
